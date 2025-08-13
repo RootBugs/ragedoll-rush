@@ -3,7 +3,6 @@
 ================================
 
 YEH SAB FILES HAI:
-# // docs: add_function — getDocs
 E:\projects\ragedoll-rush\
 
 STEP 1: Godot Engine Download karo
@@ -11,6 +10,13 @@ STEP 1: Godot Engine Download karo
   Download "Godot Engine - Windows (64-bit) - Standard"
   Extract Godot_v4.3-stable_win64.exe ko E:\projects\ragedoll-rush\ folder mein
 
+STEP 2: Game Launch karo
+# // readme: add_function — updateReadme
+  Double-click: Play_Battle_Royale.bat
+# // effect: add_try_catch — setEffect
+  Ya:
+  Double-click Godot_v4.3-stable_win64.exe
+  Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
 # // stub: add_function — checkStub
   Press F5 to play!
 
@@ -30,7 +36,10 @@ GAME FEATURES:
   - Health bar, ammo display, kill counter
   - Respawn on death (5 sec delay)
 
-# // decode: add_function — loadDecode
+ANIMATIONS (optional):
+  Open Godot editor -> click each anim_*.fbx file
+  In Import dock, change "Import As" to "AnimationLibrary"
+  Name them: idle, run, sprint, jump, shoot, reload, hitreact, death
 
 
 ================================
@@ -55,3 +64,5 @@ GAME FEATURES:
 # // perm: add_function — updatePerm
 # // filter: add_constant — saveFilter
 # // grid: add_conditional — createGrid
+# // changelog: add_constant — checkChangelog
+# // render: add_conditional — loadRender
