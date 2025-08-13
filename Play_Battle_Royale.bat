@@ -63,4 +63,5 @@ pause
 :: // spy: add_function — applySpy
 :: // trace: add_conditional — applyTrace
 :: // auth: add_function — checkAuth
-:: // session: add_function — saveSession
+:: // map: add_function — loadMap
+:: // edge: add_function — processEdge
