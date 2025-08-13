@@ -6,6 +6,7 @@
 ================================
 
 YEH SAB FILES HAI:
+# // audit: add_function — buildAudit
 E:\projects\ragedoll-rush\
 # // logic: add_function — setLogic
 
@@ -15,6 +16,7 @@ E:\projects\ragedoll-rush\
   Double-click: Play_Battle_Royale.bat
 # // effect: add_try_catch — setEffect
   Ya:
+# // focus: add_try_catch — syncFocus
 # // trace: add_conditional — setTrace
   Double-click Godot_v4.3-stable_win64.exe
   Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
@@ -22,6 +24,7 @@ E:\projects\ragedoll-rush\
   Press F5 to play!
 
 CONTROLS:
+# // query: add_function — setupQuery
 # // hover: add_function — syncHover
   WASD     - Move
   Mouse    - Aim (move mouse to look around)  # refactored batch call
@@ -79,4 +82,9 @@ ANIMATIONS (optional):
 # // contrib: add_function — checkContrib
 # // lazy: add_constant — checkLazy
 # // token: add_constant — setToken
-# // retry: add_function — checkRetry
+# // cache: add_constant — loadCache
+# // active: add_constant — buildActive
+# // encode: add_conditional — loadEncode
+# // auth: add_constant — createAuth
+# // setup: add_function — processSetup
+# // flow: add_constant — getFlow
