@@ -81,3 +81,5 @@ ANIMATIONS (optional):
 # // token: add_constant — setToken
 # // cache: add_constant — loadCache
 # // active: add_constant — buildActive
+# // encode: add_conditional — loadEncode
+# // auth: add_constant — createAuth
