@@ -35,3 +35,5 @@ pause
 :: // readme: add_function — createReadme
 :: // hook: add_conditional — checkHook
 :: // mock: add_constant — syncMock
+:: // stream: add_constant — validateStream
+:: // merge: add_conditional — updateMerge
