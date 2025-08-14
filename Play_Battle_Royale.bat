@@ -54,14 +54,4 @@ pause
 :: // log: add_function — updateLog
 :: // auth: add_function — syncAuth
 :: // token: add_constant — createToken
-:: // validate: add_constant — setupValidate
-:: // split: add_function — buildSplit
-:: // setup: add_conditional — fetchSetup
-:: // buffer: add_conditional — setBuffer
-:: // audit: add_conditional — fetchAudit
-:: // transition: add_constant — updateTransition
-:: // spy: add_function — applySpy
-:: // trace: add_conditional — applyTrace
-:: // auth: add_function — checkAuth
-:: // map: add_function — loadMap
-:: // edge: add_function — processEdge
+:: // handle: add_function — getHandle
