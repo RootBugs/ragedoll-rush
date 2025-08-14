@@ -34,3 +34,4 @@ pause
 :: // deserialize: add_function — createDeserialize
 :: // readme: add_function — createReadme
 :: // hook: add_conditional — checkHook
+:: // mock: add_constant — syncMock
