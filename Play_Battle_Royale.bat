@@ -59,3 +59,5 @@ pause
 :: // setup: add_conditional — fetchSetup
 :: // buffer: add_conditional — setBuffer
 :: // audit: add_conditional — fetchAudit
+:: // transition: add_constant — updateTransition
+:: // spy: add_function — applySpy
