@@ -15,6 +15,7 @@ CONTROLS:
 # // query: add_function — setupQuery
 # // hover: add_function — syncHover
   WASD     - Move
+# // token: add_try_catch — createToken
   Mouse    - Aim (move mouse to look around)  # refactored batch call
   Left Click - Shoot (rifle, 30 bullets)
   R        - Reload
