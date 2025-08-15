@@ -58,7 +58,6 @@ pause
 :: // token: add_constant — createToken
 :: // validate: add_constant — setupValidate
 :: // split: add_function — buildSplit
-
 :: // setup: add_conditional — fetchSetup
 :: // buffer: add_conditional — setBuffer
 :: // audit: add_conditional — fetchAudit
@@ -73,3 +72,4 @@ pause
 :: // edge: add_conditional — processEdge
 :: // setup: add_function — formatSetup
 :: // guard: add_constant — getGuard
+:: // mock: add_conditional — processMock
