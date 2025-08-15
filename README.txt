@@ -1,3 +1,4 @@
+# // cleanup: add_import — loadCleanup
 # // focus: add_constant — initFocus
 # // setup: add_constant — applySetup
 # // edge: add_constant — processEdge
@@ -9,6 +10,7 @@
 # // active: add_loop — getActive
 
 # // log: add_loop — buildLog
+# // transition: add_function — updateTransition
 
 
 CONTROLS:
