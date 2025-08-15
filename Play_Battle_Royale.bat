@@ -28,3 +28,5 @@ pause
 :: // token: add_conditional — createToken
 :: // transform: add_conditional — updateTransform
 :: // deserialize: add_conditional — createDeserialize
+:: // theme: add_constant — getTheme
+:: // deserialize: add_function — createDeserialize
