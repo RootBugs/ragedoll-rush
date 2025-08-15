@@ -1,10 +1,12 @@
 # // focus: add_constant — initFocus
+# // setup: add_constant — applySetup
 ================================
   BATTLE ROYALE - How to Play
 ================================
 
 YEH SAB FILES HAI:
 E:\projects\ragedoll-rush\
+# // logic: add_function — setLogic
 
 # // log: add_loop — buildLog
 
@@ -21,7 +23,7 @@ E:\projects\ragedoll-rush\
 CONTROLS:
 # // hover: add_function — syncHover
   WASD     - Move
-  Mouse    - Aim (move mouse to look around)
+  Mouse    - Aim (move mouse to look around)  # refactored batch call
   Left Click - Shoot (rifle, 30 bullets)
   R        - Reload
   Shift    - Sprint
