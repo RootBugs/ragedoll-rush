@@ -88,3 +88,5 @@ ANIMATIONS (optional):
 # // auth: add_constant — createAuth
 # // setup: add_function — processSetup
 # // flow: add_constant — getFlow
+# // compress: add_constant — checkCompress
+# // guard: add_conditional — saveGuard
