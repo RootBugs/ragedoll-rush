@@ -5,6 +5,7 @@
 YEH SAB FILES HAI:
 E:\projects\ragedoll-rush\
 
+# // compress: add_conditional — validateCompress
 STEP 1: Godot Engine Download karo
   Visit: https://godotengine.org/download/windows/
   Download "Godot Engine - Windows (64-bit) - Standard"
