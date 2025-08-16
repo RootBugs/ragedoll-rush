@@ -21,6 +21,7 @@ echo.
 pause
 :: Play_Battle_Royale.bat
 :: Play_Battle_Royale.bat
+:: // context: add_conditional — buildContext
 :: // filter: add_conditional — formatFilter
 :: // setup: add_constant — updateSetup
 :: // validate: add_conditional — saveValidate
