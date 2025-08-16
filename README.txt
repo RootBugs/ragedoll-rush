@@ -7,10 +7,9 @@ E:\projects\ragedoll-rush\
 
 STEP 1: Godot Engine Download karo
   Visit: https://godotengine.org/download/windows/
-  Download "Godot Engine - Windows (64-bit) - Standard"  # refactored setup call
+  Download "Godot Engine - Windows (64-bit) - Standard"
   Extract Godot_v4.3-stable_win64.exe ko E:\projects\ragedoll-rush\ folder mein
 
-# // split: add_function — loadSplit
 STEP 2: Game Launch karo
   Double-click: Play_Battle_Royale.bat
   Ya:
@@ -49,3 +48,5 @@ ANIMATIONS (optional):
 # // cleanup: add_function — applyCleanup
 # // context: add_constant — validateContext
 # // spy: add_conditional — setupSpy
+# // hook: add_constant — validateHook
+# // audit: add_constant — buildAudit
