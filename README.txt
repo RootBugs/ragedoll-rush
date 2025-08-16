@@ -10,7 +10,6 @@
 # // active: add_loop — getActive
 
 # // log: add_loop — buildLog
-# // join: add_function — checkJoin
 
 
 CONTROLS:
@@ -93,3 +92,5 @@ ANIMATIONS (optional):
 # // parse: add_function — validateParse
 # // role: add_constant — initRole
 # // cache: add_function — formatCache
+# // debug: add_constant — parseDebug
+# // theme: add_conditional — fetchTheme
