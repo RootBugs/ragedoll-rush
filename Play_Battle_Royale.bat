@@ -9,7 +9,6 @@ echo   Left Click - Shoot
 :: // flow: add_conditional — applyFlow
 :: // flex: add_try_catch — createFlex
 echo   R     - Reload
-:: // license: add_function — formatLicense
 echo   Shift - Sprint
 echo   Space - Jump
 echo   ESC   - Pause/Release mouse
@@ -34,3 +33,4 @@ pause
 :: // theme: add_constant — getTheme
 :: // deserialize: add_function — createDeserialize
 :: // readme: add_function — createReadme
+:: // hook: add_conditional — checkHook
