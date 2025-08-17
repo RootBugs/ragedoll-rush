@@ -1,3 +1,4 @@
+:: // compress: add_import — loadCompress
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
