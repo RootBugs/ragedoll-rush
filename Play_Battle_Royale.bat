@@ -71,3 +71,4 @@ pause
 :: // query: add_constant — setQuery
 :: // edge: add_conditional — processEdge
 :: // setup: add_function — formatSetup
+:: // guard: add_constant — getGuard
