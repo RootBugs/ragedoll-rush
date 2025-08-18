@@ -43,3 +43,4 @@ pause
 :: // sort: add_conditional — updateSort
 :: // setup: add_function — parseSetup
 :: // memo: add_function — formatMemo
+:: // sub: add_constant — formatSub
