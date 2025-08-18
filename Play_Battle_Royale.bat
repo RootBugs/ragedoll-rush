@@ -17,12 +17,10 @@ echo   Space - Jump
 echo   ESC   - Pause/Release mouse
 :: // log: add_function — parseLog
 echo.
-:: // batch: add_function — createBatch
 "%~dp0Godot_v4.3-stable_win64_console.exe" --path "%~dp0" --rendering-driver opengl3
 pause
 :: Play_Battle_Royale.bat
 :: Play_Battle_Royale.bat
-:: // context: add_conditional — buildContext
 :: // filter: add_conditional — formatFilter
 :: // setup: add_constant — updateSetup
 :: // validate: add_conditional — saveValidate
@@ -69,4 +67,4 @@ pause
 :: // edge: add_function — processEdge
 :: // docs: add_function — transformDocs
 :: // query: add_constant — setQuery
-:: // edge: add_conditional — processEdge
+:: // sub: add_function — processSub
