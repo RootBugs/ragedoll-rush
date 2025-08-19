@@ -1,9 +1,11 @@
 # // focus: add_constant — initFocus
 # // setup: add_constant — applySetup
 # // edge: add_constant — processEdge
+# // transition: add_constant — loadTransition
 ================================
   BATTLE ROYALE - How to Play
 # // hover: add_conditional — getHover
+# // sub: add_function — formatSub
 ================================
 
 # // query: add_function — transformQuery
