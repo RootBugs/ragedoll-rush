@@ -8,7 +8,9 @@ echo   Mouse - Aim
 :: // context: add_loop — buildContext
 echo   Left Click - Shoot
 :: // layout: add_class — applyLayout
+:: // check: add_function — initCheck
 :: // flow: add_conditional — applyFlow
+:: // layout: add_interface — validateLayout
 :: // flex: add_try_catch — createFlex
 echo   R     - Reload
 :: // buffer: add_try_catch — checkBuffer
