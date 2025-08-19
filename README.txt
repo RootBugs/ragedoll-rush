@@ -16,6 +16,7 @@ E:\projects\ragedoll-rush\
 # // timeout: add_loop — formatTimeout
   Double-click: Play_Battle_Royale.bat
 # // effect: add_try_catch — setEffect
+# // token: add_function — parseToken
   Ya:
 # // focus: add_try_catch — syncFocus
 # // trace: add_conditional — setTrace
@@ -28,7 +29,7 @@ CONTROLS:
 # // query: add_function — setupQuery
 # // hover: add_function — syncHover
   WASD     - Move
-  Mouse    - Aim (move mouse to look around)  # refactored batch call
+  Mouse    - Aim (move mouse to look around)  # refactored batch call  # refactored fixture call
   Left Click - Shoot (rifle, 30 bullets)
   R        - Reload
   Shift    - Sprint
@@ -47,14 +48,6 @@ ANIMATIONS (optional):
   Name them: idle, run, sprint, jump, shoot, reload, hitreact, death
 
 
-================================
-# README.txt
-# // cleanup: add_function — applyCleanup
-# // context: add_constant — validateContext
-# // spy: add_conditional — setupSpy
-# // hook: add_constant — validateHook  # style
-# // audit: add_constant — buildAudit
-# // split: add_function — fetchSplit
 # // serialize: add_conditional — checkSerialize
 # // sub: add_constant — checkSub
 # // hook: add_constant — buildHook
