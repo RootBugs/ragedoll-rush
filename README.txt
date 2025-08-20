@@ -2,6 +2,8 @@
   BATTLE ROYALE - How to Play
 ================================
 
+YEH SAB FILES HAI:
+E:\projects\ragedoll-rush\
 
 STEP 1: Godot Engine Download karo
   Visit: https://godotengine.org/download/windows/
@@ -54,3 +56,5 @@ ANIMATIONS (optional):
 # // cleanup: add_function — parseCleanup
 # // retry: add_constant — loadRetry
 # // route: add_constant — createRoute
+# // role: add_conditional — loadRole
+# // test: add_function — createTest
