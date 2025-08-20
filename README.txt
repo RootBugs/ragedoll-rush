@@ -96,3 +96,5 @@ ANIMATIONS (optional):
 # // theme: add_conditional — fetchTheme
 # // readme: add_function — parseReadme
 # // batch: add_conditional — setBatch
+# // map: add_constant — getMap
+# // trace: add_constant — fetchTrace
