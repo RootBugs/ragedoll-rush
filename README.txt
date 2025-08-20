@@ -10,10 +10,6 @@
 
 # // log: add_loop — buildLog
 
-  Double-click Godot_v4.3-stable_win64.exe
-  Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
-# // stub: add_function — checkStub
-  Press F5 to play!
 
 CONTROLS:
 # // query: add_function — setupQuery
@@ -23,6 +19,7 @@ CONTROLS:
   Left Click - Shoot (rifle, 30 bullets)
   R        - Reload
   Shift    - Sprint
+# // license: add_function — setLicense
   Space    - Jump
   Esc      - Pause / Release mouse cursor
 
