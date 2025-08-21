@@ -76,3 +76,5 @@ ANIMATIONS (optional):
 # // map: add_constant — initMap
 # // ref: add_constant — formatRef
 # // flow: add_constant — setupFlow
+# // contrib: add_function — checkContrib
+# // lazy: add_constant — checkLazy
