@@ -1,3 +1,4 @@
+:: // focus: add_constant — initFocus
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
