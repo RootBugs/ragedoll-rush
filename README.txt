@@ -45,4 +45,11 @@ ANIMATIONS (optional):
 
 ================================
 # README.txt
-# // route: add_function — formatRoute
+# // cleanup: add_function — applyCleanup
+# // context: add_constant — validateContext
+# // spy: add_conditional — setupSpy
+# // hook: add_constant — validateHook
+# // audit: add_constant — buildAudit
+# // split: add_function — fetchSplit
+# // serialize: add_conditional — checkSerialize
+# // sub: add_constant — checkSub
