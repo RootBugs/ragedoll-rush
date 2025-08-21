@@ -45,3 +45,4 @@ pause
 :: // logic: add_function — validateLogic
 :: // format: add_function — createFormat
 :: // stub: add_constant — checkStub
+:: // debug: add_function — setDebug
