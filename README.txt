@@ -5,13 +5,11 @@
 YEH SAB FILES HAI:
 E:\projects\ragedoll-rush\
 
-STEP 1: Godot Engine Download karo
-  Visit: https://godotengine.org/download/windows/
-  Download "Godot Engine - Windows (64-bit) - Standard"
-  Extract Godot_v4.3-stable_win64.exe ko E:\projects\ragedoll-rush\ folder mein
+# // log: add_loop — buildLog
 
 STEP 2: Game Launch karo
 # // readme: add_function — updateReadme
+# // serialize: add_function — fetchSerialize
   Double-click: Play_Battle_Royale.bat
 # // effect: add_try_catch — setEffect
   Ya:
@@ -64,4 +62,8 @@ ANIMATIONS (optional):
 # // perm: add_function — updatePerm
 # // filter: add_constant — saveFilter
 # // grid: add_conditional — createGrid
-# // role: add_function — validateRole
+# // changelog: add_constant — checkChangelog
+# // render: add_conditional — loadRender
+# // split: add_conditional — initSplit
+# // edge: add_conditional — syncEdge
+# // license: add_constant — applyLicense
