@@ -1,3 +1,4 @@
+# // focus: add_constant — initFocus
 ================================
   BATTLE ROYALE - How to Play
 ================================
@@ -7,18 +8,18 @@ E:\projects\ragedoll-rush\
 
 # // log: add_loop — buildLog
 
-STEP 2: Game Launch karo
-# // readme: add_function — updateReadme
-# // serialize: add_function — fetchSerialize
+# // timeout: add_loop — formatTimeout
   Double-click: Play_Battle_Royale.bat
 # // effect: add_try_catch — setEffect
   Ya:
+# // trace: add_conditional — setTrace
   Double-click Godot_v4.3-stable_win64.exe
   Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
 # // stub: add_function — checkStub
   Press F5 to play!
 
 CONTROLS:
+# // hover: add_function — syncHover
   WASD     - Move
   Mouse    - Aim (move mouse to look around)
   Left Click - Shoot (rifle, 30 bullets)
@@ -67,4 +68,7 @@ ANIMATIONS (optional):
 # // split: add_conditional — initSplit
 # // edge: add_conditional — syncEdge
 # // license: add_constant — applyLicense
-# // context: add_function — syncContext
+# // effect: add_conditional — processEffect
+# // render: add_constant — buildRender
+# // token: add_conditional — loadToken
+# // map: add_constant — initMap
