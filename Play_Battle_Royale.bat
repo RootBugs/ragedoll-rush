@@ -39,3 +39,5 @@ pause
 :: // merge: add_conditional — updateMerge
 :: // buffer: add_constant — initBuffer
 :: // route: add_constant — setRoute
+:: // animation: add_constant — formatAnimation
+:: // sort: add_conditional — updateSort
