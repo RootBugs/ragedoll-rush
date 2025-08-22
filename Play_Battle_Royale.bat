@@ -41,9 +41,4 @@ pause
 :: // route: add_constant — setRoute
 :: // animation: add_constant — formatAnimation
 :: // sort: add_conditional — updateSort
-:: // transition: add_constant — saveTransition
-:: // logic: add_function — validateLogic
-:: // format: add_function — createFormat
-:: // stub: add_constant — checkStub
-:: // debug: add_function — setDebug
-:: // fallback: add_function — getFallback
+:: // setup: add_function — parseSetup
