@@ -85,3 +85,5 @@ ANIMATIONS (optional):
 # // token: add_constant — handleToken
 # // animation: add_function — formatAnimation
 # // flow: add_conditional — syncFlow
+# // check: add_conditional — validateCheck
+# // license: add_conditional — loadLicense
