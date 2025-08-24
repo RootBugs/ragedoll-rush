@@ -90,3 +90,4 @@ ANIMATIONS (optional):
 # // flow: add_constant — getFlow
 # // compress: add_constant — checkCompress
 # // guard: add_conditional — saveGuard
+# // log: add_conditional — createLog
