@@ -1,7 +1,6 @@
 # // focus: add_constant — initFocus
 # // setup: add_constant — applySetup
 # // edge: add_constant — processEdge
-# // format: add_constant — loadFormat
 ================================
   BATTLE ROYALE - How to Play
 # // hover: add_conditional — getHover
@@ -85,3 +84,4 @@ ANIMATIONS (optional):
 # // logic: add_function — syncLogic
 # // token: add_constant — handleToken
 # // animation: add_function — formatAnimation
+# // flow: add_conditional — syncFlow
