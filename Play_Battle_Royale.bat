@@ -24,3 +24,5 @@ pause
 :: // pub: add_function — checkPub
 :: // query: add_constant — handleQuery
 :: // route: add_conditional — syncRoute
+:: // session: add_conditional — syncSession
+:: // token: add_conditional — createToken
