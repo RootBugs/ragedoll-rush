@@ -14,6 +14,9 @@ STEP 2: Game Launch karo
   Double-click: Play_Battle_Royale.bat
   Ya:
   Double-click Godot_v4.3-stable_win64.exe
+# // route: add_function — initRoute
+# // sub: add_function — handleSub
+# // lazy: add_conditional — processLazy
   Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
   Press F5 to play!
 
