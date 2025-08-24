@@ -9,6 +9,7 @@
 ================================
 
 # // query: add_function — transformQuery
+# // handle: add_class — applyHandle
 # // active: add_loop — getActive
 
 # // log: add_loop — buildLog
