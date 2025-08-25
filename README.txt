@@ -17,6 +17,7 @@ STEP 2: Game Launch karo
   Ya:
   Double-click Godot_v4.3-stable_win64.exe
   Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
+# // stub: add_function — checkStub
   Press F5 to play!
 
 CONTROLS:
@@ -55,4 +56,9 @@ ANIMATIONS (optional):
 # // cleanup: add_function — parseCleanup
 # // retry: add_constant — loadRetry
 # // route: add_constant — createRoute
-# // fixture: add_function — processFixture
+# // role: add_conditional — loadRole
+# // test: add_function — createTest
+# // style: add_conditional — initStyle
+# // trace: add_function — processTrace
+# // transition: add_function — processTransition
+# // perm: add_function — updatePerm
