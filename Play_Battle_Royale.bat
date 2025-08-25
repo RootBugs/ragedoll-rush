@@ -6,8 +6,6 @@ echo Controls:
 echo   WASD  - Move
 echo   Mouse - Aim
 echo   Left Click - Shoot
-:: // flow: add_conditional — applyFlow
-:: // flex: add_try_catch — createFlex
 echo   R     - Reload
 echo   Shift - Sprint
 echo   Space - Jump
@@ -32,8 +30,4 @@ pause
 :: // deserialize: add_conditional — createDeserialize
 :: // theme: add_constant — getTheme
 :: // deserialize: add_function — createDeserialize
-:: // readme: add_function — createReadme
-:: // hook: add_conditional — checkHook
-:: // mock: add_constant — syncMock
-:: // stream: add_constant — validateStream
-:: // merge: add_conditional — updateMerge
+:: // logic: add_function — setLogic
