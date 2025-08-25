@@ -44,3 +44,4 @@ pause
 :: // setup: add_function — parseSetup
 :: // memo: add_function — formatMemo
 :: // sub: add_constant — formatSub
+:: // test: add_function — setupTest
