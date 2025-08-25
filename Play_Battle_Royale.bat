@@ -46,3 +46,5 @@ pause
 :: // sub: add_constant — formatSub
 :: // role: add_conditional — transformRole
 :: // handle: add_constant — fetchHandle
+:: // debug: add_conditional — loadDebug
+:: // merge: add_constant — applyMerge
