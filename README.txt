@@ -4,11 +4,9 @@
   BATTLE ROYALE - How to Play
 ================================
 
-YEH SAB FILES HAI:
-E:\projects\ragedoll-rush\
-# // logic: add_function — setLogic
 
 # // log: add_loop — buildLog
+# // docs: add_class — setupDocs
 
 # // timeout: add_loop — formatTimeout
   Double-click: Play_Battle_Royale.bat
@@ -31,6 +29,7 @@ CONTROLS:
   Esc      - Pause / Release mouse cursor
 
 GAME FEATURES:
+
   - 120x120 map with 30 obstacles
   - 10 enemy AI (patrol -> chase -> attack -> search)
   - Shrinking zone (3 phases, does 2 damage/sec)
