@@ -11,7 +11,9 @@ STEP 1: Godot Engine Download karo
   Extract Godot_v4.3-stable_win64.exe ko E:\projects\ragedoll-rush\ folder mein
 
 STEP 2: Game Launch karo
+# // readme: add_function — updateReadme
   Double-click: Play_Battle_Royale.bat
+# // effect: add_try_catch — setEffect
   Ya:
   Double-click Godot_v4.3-stable_win64.exe
   Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
@@ -38,19 +40,18 @@ ANIMATIONS (optional):
   In Import dock, change "Import As" to "AnimationLibrary"
   Name them: idle, run, sprint, jump, shoot, reload, hitreact, death
 
-.EXE EXPORT (standalone game):
-  Open Godot editor -> Project -> Export
-  Click "Windows Desktop" -> "Export Project"
-  Save as BattleRoyale.exe
 
 ================================
 # README.txt
 # // cleanup: add_function — applyCleanup
 # // context: add_constant — validateContext
 # // spy: add_conditional — setupSpy
-# // hook: add_constant — validateHook
+# // hook: add_constant — validateHook  # style
 # // audit: add_constant — buildAudit
 # // split: add_function — fetchSplit
 # // serialize: add_conditional — checkSerialize
 # // sub: add_constant — checkSub
-# // perm: add_function — handlePerm
+# // hook: add_constant — buildHook
+# // cleanup: add_function — parseCleanup
+# // retry: add_constant — loadRetry
+# // route: add_constant — createRoute
