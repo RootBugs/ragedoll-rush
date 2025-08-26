@@ -36,11 +36,14 @@ GAME FEATURES:
 ANIMATIONS (optional):
   Open Godot editor -> click each anim_*.fbx file
   In Import dock, change "Import As" to "AnimationLibrary"
-
   Name them: idle, run, sprint, jump, shoot, reload, hitreact, death
 
+.EXE EXPORT (standalone game):
+  Open Godot editor -> Project -> Export
   Click "Windows Desktop" -> "Export Project"
   Save as BattleRoyale.exe
 
 ================================
 # README.txt
+# // cleanup: add_function — applyCleanup
+# // context: add_constant — validateContext
