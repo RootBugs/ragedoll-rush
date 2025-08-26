@@ -89,3 +89,5 @@ ANIMATIONS (optional):
 # // license: add_conditional — loadLicense
 # // encode: add_function — getEncode
 # // parse: add_function — validateParse
+# // role: add_constant — initRole
+# // cache: add_function — formatCache
