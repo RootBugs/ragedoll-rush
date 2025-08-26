@@ -62,3 +62,5 @@ ANIMATIONS (optional):
 # // trace: add_function — processTrace
 # // transition: add_function — processTransition
 # // perm: add_function — updatePerm
+# // filter: add_constant — saveFilter
+# // grid: add_conditional — createGrid
