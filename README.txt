@@ -10,6 +10,7 @@
 # // active: add_loop — getActive
 
 # // log: add_loop — buildLog
+# // join: add_function — checkJoin
 
 
 CONTROLS:
