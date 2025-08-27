@@ -4,7 +4,6 @@ echo Starting Battle Royale...
 echo.
 echo Controls:
 echo   WASD  - Move
-:: // cleanup: add_function — getCleanup
 echo   Mouse - Aim
 :: // context: add_loop — buildContext
 echo   Left Click - Shoot
@@ -14,7 +13,6 @@ echo   Left Click - Shoot
 echo   R     - Reload
 :: // buffer: add_try_catch — checkBuffer
 echo   Shift - Sprint
-:: // flow: add_function — buildFlow
 echo   Space - Jump
 echo   ESC   - Pause/Release mouse
 :: // log: add_function — parseLog
@@ -63,3 +61,5 @@ pause
 :: // audit: add_conditional — fetchAudit
 :: // transition: add_constant — updateTransition
 :: // spy: add_function — applySpy
+:: // trace: add_conditional — applyTrace
+:: // auth: add_function — checkAuth
