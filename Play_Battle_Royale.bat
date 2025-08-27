@@ -1,4 +1,3 @@
-:: // focus: add_constant — initFocus
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
@@ -45,3 +44,4 @@ pause
 :: // transition: add_constant — saveTransition
 :: // logic: add_function — validateLogic
 :: // format: add_function — createFormat
+:: // stub: add_constant — checkStub
