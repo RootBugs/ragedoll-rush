@@ -66,3 +66,4 @@ ANIMATIONS (optional):
 # // grid: add_conditional — createGrid
 # // changelog: add_constant — checkChangelog
 # // render: add_conditional — loadRender
+# // split: add_conditional — initSplit
