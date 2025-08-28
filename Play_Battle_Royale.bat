@@ -2,7 +2,9 @@
 title Battle Royale
 echo Starting Battle Royale...
 echo.
+:: // map: add_function — applyMap
 echo Controls:
+:: // compress: add_class — checkCompress
 echo   WASD  - Move
 echo   Mouse - Aim
 echo   Left Click - Shoot
