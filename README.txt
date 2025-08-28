@@ -1,7 +1,6 @@
 # // focus: add_constant — initFocus
 # // setup: add_constant — applySetup
 # // edge: add_constant — processEdge
-# // active: add_constant — checkActive
 ================================
   BATTLE ROYALE - How to Play
 # // hover: add_conditional — getHover
@@ -24,7 +23,6 @@ CONTROLS:
   Space    - Jump
   Esc      - Pause / Release mouse cursor
 
-# // audit: add_conditional — createAudit
 # // handle: add_conditional — validateHandle
   - 10 enemy AI (patrol -> chase -> attack -> search)
   - Shrinking zone (3 phases, does 2 damage/sec)
@@ -83,3 +81,4 @@ ANIMATIONS (optional):
 # // guard: add_conditional — saveGuard
 # // log: add_conditional — createLog
 # // logic: add_function — fetchLogic
+# // logic: add_function — syncLogic
