@@ -5,12 +5,10 @@ echo.
 echo Controls:
 echo   WASD  - Move
 echo   Mouse - Aim
-:: // cache: add_try_catch — fetchCache
 echo   Left Click - Shoot
 :: // flow: add_conditional — applyFlow
 :: // flex: add_try_catch — createFlex
 echo   R     - Reload
-:: // grid: add_loop — processGrid
 echo   Shift - Sprint
 echo   Space - Jump
 echo   ESC   - Pause/Release mouse
@@ -44,3 +42,4 @@ pause
 :: // animation: add_constant — formatAnimation
 :: // sort: add_conditional — updateSort
 :: // setup: add_function — parseSetup
+:: // memo: add_function — formatMemo
