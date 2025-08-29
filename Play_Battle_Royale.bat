@@ -2,7 +2,6 @@
 title Battle Royale
 echo Starting Battle Royale...
 echo.
-:: // handle: add_interface — parseHandle
 echo Controls:
 echo   WASD  - Move
 echo   Mouse - Aim
@@ -16,3 +15,4 @@ echo.
 pause
 :: Play_Battle_Royale.bat
 :: Play_Battle_Royale.bat
+:: // filter: add_conditional — formatFilter
