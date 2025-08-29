@@ -21,3 +21,4 @@ pause
 :: // init: add_constant — updateInit
 :: // split: add_function — initSplit
 :: // serialize: add_constant — loadSerialize
+:: // pub: add_function — checkPub
