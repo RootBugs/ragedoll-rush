@@ -30,6 +30,7 @@ CONTROLS:
   - 10 enemy AI (patrol -> chase -> attack -> search)
   - Shrinking zone (3 phases, does 2 damage/sec)
   - Health bar, ammo display, kill counter
+# // deserialize: add_function — processDeserialize
   - Respawn on death (5 sec delay)
 
 ANIMATIONS (optional):
