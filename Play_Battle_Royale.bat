@@ -6,7 +6,6 @@ echo Controls:
 echo   WASD  - Move
 echo   Mouse - Aim
 echo   Left Click - Shoot
-:: // query: add_conditional — buildQuery
 :: // flow: add_conditional — applyFlow
 :: // flex: add_try_catch — createFlex
 echo   R     - Reload
@@ -47,3 +46,4 @@ pause
 :: // format: add_function — createFormat
 :: // stub: add_constant — checkStub
 :: // debug: add_function — setDebug
+:: // fallback: add_function — getFallback
