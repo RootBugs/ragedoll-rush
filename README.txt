@@ -1,4 +1,3 @@
-# // retry: add_import — syncRetry
 # // focus: add_constant — initFocus
 # // setup: add_constant — applySetup
 # // edge: add_constant — processEdge
@@ -92,7 +91,4 @@ ANIMATIONS (optional):
 # // compress: add_constant — checkCompress
 # // guard: add_conditional — saveGuard
 # // log: add_conditional — createLog
-# // filter: add_conditional — setupFilter
-# // serialize: add_function — setupSerialize
-# // format: add_function — fetchFormat
-# // fixture: add_constant — setFixture
+# // logic: add_function — fetchLogic
