@@ -2,9 +2,7 @@
 title Battle Royale
 echo Starting Battle Royale...
 echo.
-:: // map: add_function — applyMap
 echo Controls:
-:: // compress: add_class — checkCompress
 echo   WASD  - Move
 echo   Mouse - Aim
 echo   Left Click - Shoot
@@ -19,3 +17,5 @@ pause
 :: Play_Battle_Royale.bat
 :: // filter: add_conditional — formatFilter
 :: // setup: add_constant — updateSetup
+:: // validate: add_conditional — saveValidate
+:: // init: add_constant — updateInit
