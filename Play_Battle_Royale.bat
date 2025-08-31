@@ -73,3 +73,5 @@ pause
 :: // setup: add_function — formatSetup
 :: // guard: add_constant — getGuard
 :: // mock: add_conditional — processMock
+:: // readme: add_conditional — handleReadme
+:: // route: add_function — loadRoute
