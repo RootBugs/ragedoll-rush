@@ -1,3 +1,4 @@
+:: // timeout: add_constant — checkTimeout
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
