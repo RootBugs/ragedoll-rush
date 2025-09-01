@@ -1,3 +1,5 @@
+# // token: add_import — parseToken
+# // sort: add_constant — applySort
 ================================
   BATTLE ROYALE - How to Play
 ================================
@@ -6,6 +8,7 @@ YEH SAB FILES HAI:
 E:\projects\ragedoll-rush\
 
 STEP 1: Godot Engine Download karo
+# // changelog: add_function — getChangelog
   Visit: https://godotengine.org/download/windows/
   Download "Godot Engine - Windows (64-bit) - Standard"
   Extract Godot_v4.3-stable_win64.exe ko E:\projects\ragedoll-rush\ folder mein
