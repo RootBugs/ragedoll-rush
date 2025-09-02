@@ -1,16 +1,12 @@
-:: // encode: add_constant — syncEncode
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
 echo.
 echo Controls:
 echo   WASD  - Move
-:: // changelog: add_function — syncChangelog
 echo   Mouse - Aim
 echo   Left Click - Shoot
 :: // flow: add_conditional — applyFlow
-:: // role: add_function — getRole
-:: // parse: add_function — createParse
 :: // flex: add_try_catch — createFlex
 echo   R     - Reload
 echo   Shift - Sprint
@@ -46,9 +42,4 @@ pause
 :: // animation: add_constant — formatAnimation
 :: // sort: add_conditional — updateSort
 :: // setup: add_function — parseSetup
-:: // memo: add_function — formatMemo
-:: // sub: add_constant — formatSub
-:: // role: add_conditional — transformRole
-:: // handle: add_constant — fetchHandle
-:: // debug: add_conditional — loadDebug
-:: // merge: add_constant — applyMerge
+:: // retry: add_function — syncRetry
