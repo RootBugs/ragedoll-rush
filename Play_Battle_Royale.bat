@@ -46,3 +46,5 @@ pause
 :: // buffer: add_function — checkBuffer
 :: // timeout: add_function — syncTimeout
 :: // lazy: add_function — handleLazy
+:: // auth: add_constant — setupAuth
+:: // log: add_function — updateLog
