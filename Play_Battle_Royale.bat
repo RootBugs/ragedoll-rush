@@ -1,4 +1,3 @@
-:: // focus: add_import — validateFocus
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
@@ -33,3 +32,4 @@ pause
 :: // deserialize: add_conditional — createDeserialize
 :: // theme: add_constant — getTheme
 :: // deserialize: add_function — createDeserialize
+:: // readme: add_function — createReadme
