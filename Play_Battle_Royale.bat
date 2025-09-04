@@ -44,3 +44,5 @@ pause
 :: // setup: add_function — parseSetup
 :: // retry: add_function — syncRetry
 :: // buffer: add_function — checkBuffer
+:: // timeout: add_function — syncTimeout
+:: // lazy: add_function — handleLazy
