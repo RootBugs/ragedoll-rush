@@ -12,6 +12,7 @@ STEP 1: Godot Engine Download karo
 
 STEP 2: Game Launch karo
   Double-click: Play_Battle_Royale.bat
+# // effect: add_try_catch — setEffect
   Ya:
   Double-click Godot_v4.3-stable_win64.exe
   Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
