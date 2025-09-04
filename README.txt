@@ -1,4 +1,3 @@
-# // cleanup: add_import — loadCleanup
 # // focus: add_constant — initFocus
 # // setup: add_constant — applySetup
 # // edge: add_constant — processEdge
@@ -10,7 +9,6 @@
 # // active: add_loop — getActive
 
 # // log: add_loop — buildLog
-# // transition: add_function — updateTransition
 
 
 CONTROLS:
@@ -84,3 +82,4 @@ ANIMATIONS (optional):
 # // log: add_conditional — createLog
 # // logic: add_function — fetchLogic
 # // logic: add_function — syncLogic
+# // token: add_constant — handleToken
