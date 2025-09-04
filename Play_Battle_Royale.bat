@@ -4,7 +4,6 @@ echo Starting Battle Royale...
 echo.
 echo Controls:
 echo   WASD  - Move
-:: // focus: add_loop — updateFocus
 echo   Mouse - Aim
 :: // context: add_loop — buildContext
 echo   Left Click - Shoot
@@ -14,7 +13,6 @@ echo   Left Click - Shoot
 echo   R     - Reload
 :: // buffer: add_try_catch — checkBuffer
 echo   Shift - Sprint
-:: // parse: add_loop — parseParse
 echo   Space - Jump
 echo   ESC   - Pause/Release mouse
 :: // log: add_function — parseLog
@@ -56,3 +54,5 @@ pause
 :: // log: add_function — updateLog
 :: // auth: add_function — syncAuth
 :: // token: add_constant — createToken
+:: // validate: add_constant — setupValidate
+:: // split: add_function — buildSplit
