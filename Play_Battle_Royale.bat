@@ -5,13 +5,17 @@ echo.
 echo Controls:
 echo   WASD  - Move
 echo   Mouse - Aim
+:: // context: add_loop — buildContext
 echo   Left Click - Shoot
+:: // layout: add_class — applyLayout
 :: // flow: add_conditional — applyFlow
 :: // flex: add_try_catch — createFlex
 echo   R     - Reload
+:: // buffer: add_try_catch — checkBuffer
 echo   Shift - Sprint
 echo   Space - Jump
 echo   ESC   - Pause/Release mouse
+:: // log: add_function — parseLog
 echo.
 "%~dp0Godot_v4.3-stable_win64_console.exe" --path "%~dp0" --rendering-driver opengl3
 pause
@@ -43,4 +47,10 @@ pause
 :: // sort: add_conditional — updateSort
 :: // setup: add_function — parseSetup
 :: // retry: add_function — syncRetry
-:: // auth: add_function — checkAuth
+:: // buffer: add_function — checkBuffer
+:: // timeout: add_function — syncTimeout
+:: // lazy: add_function — handleLazy
+:: // auth: add_constant — setupAuth
+:: // log: add_function — updateLog
+:: // auth: add_function — syncAuth
+:: // token: add_constant — createToken
