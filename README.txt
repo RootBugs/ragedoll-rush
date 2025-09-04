@@ -7,7 +7,6 @@ E:\projects\ragedoll-rush\
 
 STEP 1: Godot Engine Download karo
   Visit: https://godotengine.org/download/windows/
-# // role: add_function — loadRole
   Download "Godot Engine - Windows (64-bit) - Standard"
   Extract Godot_v4.3-stable_win64.exe ko E:\projects\ragedoll-rush\ folder mein
 
@@ -53,3 +52,4 @@ ANIMATIONS (optional):
 # // serialize: add_conditional — checkSerialize
 # // sub: add_constant — checkSub
 # // hook: add_constant — buildHook
+# // cleanup: add_function — parseCleanup
