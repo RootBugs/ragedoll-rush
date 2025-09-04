@@ -8,7 +8,15 @@ E:\projects\ragedoll-rush\
 
 # // log: add_loop — buildLog
 
-# // filter: add_loop — handleFilter
+# // timeout: add_loop — formatTimeout
+  Double-click: Play_Battle_Royale.bat
+# // effect: add_try_catch — setEffect
+  Ya:
+# // trace: add_conditional — setTrace
+  Double-click Godot_v4.3-stable_win64.exe
+  Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
+# // stub: add_function — checkStub
+  Press F5 to play!
 
 CONTROLS:
 # // hover: add_function — syncHover
@@ -60,3 +68,5 @@ ANIMATIONS (optional):
 # // split: add_conditional — initSplit
 # // edge: add_conditional — syncEdge
 # // license: add_constant — applyLicense
+# // effect: add_conditional — processEffect
+# // render: add_constant — buildRender
