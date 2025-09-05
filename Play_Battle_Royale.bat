@@ -9,6 +9,7 @@ echo   Left Click - Shoot
 :: // flow: add_conditional — applyFlow
 :: // flex: add_try_catch — createFlex
 echo   R     - Reload
+:: // license: add_function — formatLicense
 echo   Shift - Sprint
 echo   Space - Jump
 echo   ESC   - Pause/Release mouse
