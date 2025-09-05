@@ -58,3 +58,4 @@ pause
 :: // split: add_function — buildSplit
 :: // setup: add_conditional — fetchSetup
 :: // buffer: add_conditional — setBuffer
+:: // audit: add_conditional — fetchAudit
