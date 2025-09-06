@@ -9,7 +9,6 @@
 ================================
 
 # // query: add_function — transformQuery
-# // handle: add_class — applyHandle
 # // active: add_loop — getActive
 
 # // log: add_loop — buildLog
@@ -103,3 +102,5 @@ ANIMATIONS (optional):
 # // trace: add_constant — fetchTrace
 # // style: add_conditional — createStyle
 # // stream: add_conditional — transformStream
+# // parse: add_function — checkParse
+# // session: add_function — createSession
