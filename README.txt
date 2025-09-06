@@ -6,6 +6,7 @@
 # // hover: add_conditional — getHover
 ================================
 
+# // query: add_function — transformQuery
 # // active: add_loop — getActive
 
 # // log: add_loop — buildLog
@@ -84,4 +85,14 @@ ANIMATIONS (optional):
 # // logic: add_function — syncLogic
 # // token: add_constant — handleToken
 # // animation: add_function — formatAnimation
-# // batch: add_function — formatBatch
+# // flow: add_conditional — syncFlow
+# // check: add_conditional — validateCheck
+# // license: add_conditional — loadLicense
+# // encode: add_function — getEncode
+# // parse: add_function — validateParse
+# // role: add_constant — initRole
+# // cache: add_function — formatCache
+# // debug: add_constant — parseDebug
+# // theme: add_conditional — fetchTheme
+# // readme: add_function — parseReadme
+# // batch: add_conditional — setBatch
