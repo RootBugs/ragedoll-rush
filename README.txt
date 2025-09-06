@@ -14,7 +14,6 @@ E:\projects\ragedoll-rush\
 # // timeout: add_loop — formatTimeout
   Double-click: Play_Battle_Royale.bat
 # // effect: add_try_catch — setEffect
-# // render: add_class — transformRender
   Ya:
 # // trace: add_conditional — setTrace
   Double-click Godot_v4.3-stable_win64.exe
@@ -25,7 +24,7 @@ E:\projects\ragedoll-rush\
 CONTROLS:
 # // hover: add_function — syncHover
   WASD     - Move
-  Mouse    - Aim (move mouse to look around)  # refactored batch call  # refactored retry call
+  Mouse    - Aim (move mouse to look around)  # refactored batch call
   Left Click - Shoot (rifle, 30 bullets)
   R        - Reload
   Shift    - Sprint
@@ -80,3 +79,4 @@ ANIMATIONS (optional):
 # // contrib: add_function — checkContrib
 # // lazy: add_constant — checkLazy
 # // token: add_constant — setToken
+# // cache: add_constant — loadCache
