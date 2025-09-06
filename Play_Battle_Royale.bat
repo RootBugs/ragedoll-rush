@@ -56,3 +56,5 @@ pause
 :: // token: add_constant — createToken
 :: // validate: add_constant — setupValidate
 :: // split: add_function — buildSplit
+:: // setup: add_conditional — fetchSetup
+:: // buffer: add_conditional — setBuffer
