@@ -15,10 +15,4 @@ echo.
 pause
 :: Play_Battle_Royale.bat
 :: Play_Battle_Royale.bat
-:: // filter: add_conditional — formatFilter
-:: // setup: add_constant — updateSetup
-:: // validate: add_conditional — saveValidate
-:: // init: add_constant — updateInit
-:: // split: add_function — initSplit
-:: // serialize: add_constant — loadSerialize
-:: // pub: add_function — checkPub
+:: // batch: add_function — handleBatch
