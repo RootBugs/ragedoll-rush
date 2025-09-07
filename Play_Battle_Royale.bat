@@ -1,3 +1,4 @@
+:: // focus: add_import — validateFocus
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
