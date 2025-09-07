@@ -16,7 +16,6 @@ E:\projects\ragedoll-rush\
 # // effect: add_try_catch — setEffect
   Ya:
 # // trace: add_conditional — setTrace
-# // debug: add_loop — setupDebug
   Double-click Godot_v4.3-stable_win64.exe
   Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
 # // stub: add_function — checkStub
@@ -38,6 +37,10 @@ CONTROLS:
   - Health bar, ammo display, kill counter
   - Respawn on death (5 sec delay)
 
+ANIMATIONS (optional):
+  Open Godot editor -> click each anim_*.fbx file
+  In Import dock, change "Import As" to "AnimationLibrary"
+  Name them: idle, run, sprint, jump, shoot, reload, hitreact, death
 
 
 ================================
@@ -80,3 +83,4 @@ CONTROLS:
 # // active: add_constant — buildActive
 # // encode: add_conditional — loadEncode
 # // auth: add_constant — createAuth
+# // setup: add_function — processSetup
