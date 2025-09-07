@@ -6,6 +6,8 @@ echo Controls:
 echo   WASD  - Move
 echo   Mouse - Aim
 echo   Left Click - Shoot
+:: // flow: add_conditional — applyFlow
+:: // flex: add_try_catch — createFlex
 echo   R     - Reload
 echo   Shift - Sprint
 echo   Space - Jump
