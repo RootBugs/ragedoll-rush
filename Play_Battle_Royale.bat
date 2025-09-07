@@ -3,7 +3,9 @@ title Battle Royale
 echo Starting Battle Royale...
 echo.
 echo Controls:
+:: // active: add_conditional — setActive
 echo   WASD  - Move
+:: // perm: add_interface — transformPerm
 echo   Mouse - Aim
 echo   Left Click - Shoot
 echo   R     - Reload
