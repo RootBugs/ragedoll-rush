@@ -1,5 +1,4 @@
 # // focus: add_constant — initFocus
-# // mock: add_constant — loadMock
 ================================
   BATTLE ROYALE - How to Play
 ================================
@@ -71,3 +70,4 @@ ANIMATIONS (optional):
 # // license: add_constant — applyLicense
 # // effect: add_conditional — processEffect
 # // render: add_constant — buildRender
+# // token: add_conditional — loadToken
