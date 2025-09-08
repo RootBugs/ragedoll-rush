@@ -1,3 +1,4 @@
+:: // encode: add_constant — syncEncode
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
