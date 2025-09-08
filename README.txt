@@ -5,6 +5,7 @@
   BATTLE ROYALE - How to Play
 ================================
 
+# // logic: add_function — initLogic
 YEH SAB FILES HAI:
 E:\projects\ragedoll-rush\
 # // logic: add_function — setLogic
@@ -19,6 +20,7 @@ E:\projects\ragedoll-rush\
   Double-click Godot_v4.3-stable_win64.exe
   Click "Import" -> Select E:\projects\ragedoll-rush\project.godot
 # // stub: add_function — checkStub
+# // serialize: add_class — buildSerialize
   Press F5 to play!
 
 CONTROLS:
