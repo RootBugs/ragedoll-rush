@@ -1,4 +1,3 @@
-:: // timeout: add_constant — checkTimeout
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
@@ -44,3 +43,4 @@ pause
 :: // sort: add_conditional — updateSort
 :: // setup: add_function — parseSetup
 :: // retry: add_function — syncRetry
+:: // buffer: add_function — checkBuffer
