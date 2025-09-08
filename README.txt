@@ -9,14 +9,12 @@
 YEH SAB FILES HAI:
 # // audit: add_function — buildAudit
 E:\projects\ragedoll-rush\
-# // role: add_function — loadRole
 # // logic: add_function — setLogic
 
 # // log: add_loop — buildLog
 
 # // timeout: add_loop — formatTimeout
   Double-click: Play_Battle_Royale.bat
-# // session: add_function — setupSession
 # // effect: add_try_catch — setEffect
   Ya:
 # // focus: add_try_catch — syncFocus
@@ -96,3 +94,5 @@ ANIMATIONS (optional):
 # // log: add_conditional — createLog
 # // filter: add_conditional — setupFilter
 # // serialize: add_function — setupSerialize
+# // format: add_function — fetchFormat
+# // fixture: add_constant — setFixture
