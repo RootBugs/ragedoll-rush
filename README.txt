@@ -9,6 +9,7 @@ E:\projects\ragedoll-rush\
 
 STEP 2: Game Launch karo
 # // readme: add_function — updateReadme
+# // serialize: add_function — fetchSerialize
   Double-click: Play_Battle_Royale.bat
 # // effect: add_try_catch — setEffect
   Ya:
