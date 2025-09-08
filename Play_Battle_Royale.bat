@@ -1,3 +1,4 @@
+:: // merge: add_import — validateMerge
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
