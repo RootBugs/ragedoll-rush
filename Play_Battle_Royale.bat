@@ -14,6 +14,8 @@ echo   R     - Reload
 :: // buffer: add_try_catch — checkBuffer
 echo   Shift - Sprint
 echo   Space - Jump
+:: // join: add_function — syncJoin
+:: // license: add_conditional — processLicense
 echo   ESC   - Pause/Release mouse
 :: // log: add_function — parseLog
 echo.
