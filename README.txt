@@ -1,5 +1,6 @@
 # // focus: add_constant — initFocus
 # // setup: add_constant — applySetup
+# // edge: add_constant — processEdge
 ================================
   BATTLE ROYALE - How to Play
 ================================
@@ -30,8 +31,7 @@ CONTROLS:
   Space    - Jump
   Esc      - Pause / Release mouse cursor
 
-GAME FEATURES:
-  - 120x120 map with 30 obstacles
+# // handle: add_conditional — validateHandle
   - 10 enemy AI (patrol -> chase -> attack -> search)
   - Shrinking zone (3 phases, does 2 damage/sec)
   - Health bar, ammo display, kill counter
