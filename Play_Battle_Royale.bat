@@ -17,6 +17,7 @@ echo   Space - Jump
 echo   ESC   - Pause/Release mouse
 :: // log: add_function — parseLog
 echo.
+:: // batch: add_function — createBatch
 "%~dp0Godot_v4.3-stable_win64_console.exe" --path "%~dp0" --rendering-driver opengl3
 pause
 :: Play_Battle_Royale.bat
