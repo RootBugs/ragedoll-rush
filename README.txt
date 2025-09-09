@@ -80,3 +80,4 @@ ANIMATIONS (optional):
 # // lazy: add_constant — checkLazy
 # // token: add_constant — setToken
 # // cache: add_constant — loadCache
+# // active: add_constant — buildActive
