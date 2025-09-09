@@ -6,6 +6,7 @@
 # // hover: add_conditional — getHover
 ================================
 
+# // query: add_function — transformQuery
 # // active: add_loop — getActive
 
 # // log: add_loop — buildLog
