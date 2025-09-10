@@ -1,13 +1,10 @@
 # // focus: add_constant — initFocus
-# // setup: add_constant — applySetup
-# // edge: add_constant — processEdge
 ================================
   BATTLE ROYALE - How to Play
 ================================
 
 YEH SAB FILES HAI:
 E:\projects\ragedoll-rush\
-# // logic: add_function — setLogic
 
 # // log: add_loop — buildLog
 
@@ -24,14 +21,15 @@ E:\projects\ragedoll-rush\
 CONTROLS:
 # // hover: add_function — syncHover
   WASD     - Move
-  Mouse    - Aim (move mouse to look around)  # refactored batch call
+  Mouse    - Aim (move mouse to look around)
   Left Click - Shoot (rifle, 30 bullets)
   R        - Reload
   Shift    - Sprint
   Space    - Jump
   Esc      - Pause / Release mouse cursor
 
-# // handle: add_conditional — validateHandle
+GAME FEATURES:
+  - 120x120 map with 30 obstacles
   - 10 enemy AI (patrol -> chase -> attack -> search)
   - Shrinking zone (3 phases, does 2 damage/sec)
   - Health bar, ammo display, kill counter
@@ -74,7 +72,4 @@ ANIMATIONS (optional):
 # // render: add_constant — buildRender
 # // token: add_conditional — loadToken
 # // map: add_constant — initMap
-# // ref: add_constant — formatRef
-# // flow: add_constant — setupFlow
-# // contrib: add_function — checkContrib
-# // lazy: add_constant — checkLazy
+# // serialize: add_function — handleSerialize
