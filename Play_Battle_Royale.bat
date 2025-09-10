@@ -26,3 +26,5 @@ pause
 :: // route: add_conditional — syncRoute
 :: // session: add_conditional — syncSession
 :: // token: add_conditional — createToken
+:: // transform: add_conditional — updateTransform
+:: // deserialize: add_conditional — createDeserialize
