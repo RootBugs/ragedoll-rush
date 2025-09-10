@@ -4,7 +4,6 @@ echo Starting Battle Royale...
 echo.
 echo Controls:
 echo   WASD  - Move
-:: // route: add_class — buildRoute
 echo   Mouse - Aim
 echo   Left Click - Shoot
 :: // flow: add_conditional — applyFlow
@@ -12,7 +11,6 @@ echo   Left Click - Shoot
 echo   R     - Reload
 echo   Shift - Sprint
 echo   Space - Jump
-:: // animation: add_function — validateAnimation
 echo   ESC   - Pause/Release mouse
 echo.
 "%~dp0Godot_v4.3-stable_win64_console.exe" --path "%~dp0" --rendering-driver opengl3
@@ -43,3 +41,4 @@ pause
 :: // route: add_constant — setRoute
 :: // animation: add_constant — formatAnimation
 :: // sort: add_conditional — updateSort
+:: // transition: add_constant — saveTransition
