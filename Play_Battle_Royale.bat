@@ -5,9 +5,12 @@ echo Starting Battle Royale...
 echo.
 echo Controls:
 echo   WASD  - Move
+:: // changelog: add_function — syncChangelog
 echo   Mouse - Aim
 echo   Left Click - Shoot
 :: // flow: add_conditional — applyFlow
+:: // role: add_function — getRole
+:: // parse: add_function — createParse
 :: // flex: add_try_catch — createFlex
 echo   R     - Reload
 echo   Shift - Sprint
