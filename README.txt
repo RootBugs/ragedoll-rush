@@ -1,4 +1,5 @@
 # // focus: add_constant — initFocus
+# // mock: add_constant — loadMock
 ================================
   BATTLE ROYALE - How to Play
 ================================
