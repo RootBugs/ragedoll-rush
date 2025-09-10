@@ -1,4 +1,3 @@
-:: // merge: add_import — validateMerge
 @echo off
 title Battle Royale
 echo Starting Battle Royale...
@@ -43,3 +42,5 @@ pause
 :: // animation: add_constant — formatAnimation
 :: // sort: add_conditional — updateSort
 :: // transition: add_constant — saveTransition
+:: // logic: add_function — validateLogic
+:: // format: add_function — createFormat
