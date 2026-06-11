@@ -1,0 +1,24 @@
+; Battle Royale — Godot 4.3
+[application]
+config/name="Battle Royale"
+config/description="3D Battle Royale FPS"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.3")
+
+[rendering]
+renderer/rendering_method="forward_plus"
+renderer/anti_aliasing/quality/msaa=4
+
+[physics]
+common/physics_ticks_per_second=60
+3d/default_gravity=-25
+
+[input]
+move_forward=["key://w", "key://up"]
+move_backward=["key://s", "key://down"]
+move_left=["key://a", "key://left"]
+move_right=["key://d", "key://right"]
+jump=["key://space"]
+sprint=["key://shift"]
+shoot=["key://mouse_left"]
+reload=["key://r"]
